@@ -1,17 +1,135 @@
-# React + Vite
+CampusConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A student-centered web platform for announcements, events, and lost & found.
+Built with React + Vite + TypeScript.
 
-Currently, two official plugins are available:
+About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CampusConnect is a centralized platform designed to solve communication issues within the university community.
+Students often struggle to find reliable information about campus events, announcements, or lost items.
+Our solution provides a simple, modern, and structured interface to keep everyone connected.
 
-## React Compiler
+ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ Announcements — View important updates and posts from clubs or administration
+✔ Events — Stay informed about upcoming student events
+✔ Lost & Found — Browse and report lost or found items
+✔ Responsive UI — Mobile & desktop friendly
+✔ Modern Frontend Stack — React + Vite + TypeScript for fast performance
 
-## Expanding the ESLint configuration
+ Tech Stack
+Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# campusconnect-v2
+React
+
+TypeScript
+
+Vite
+
+CSS / Tailwind (optional)
+
+Tools
+
+GitHub
+
+WebStorm / VS Code
+
+Figma
+
+npm
+
+Future Backend
+
+Node.js + Express
+
+MongoDB / Firebase
+
+ Project Structure
+src/
+ ├─ assets/        # images, icons
+ ├─ components/    # reusable UI components (Navbar, Cards…)
+ ├─ pages/         # route pages (Home, Events, LostFound)
+ ├─ services/      # API calls (future)
+ ├─ hooks/         # custom hooks
+ ├─ context/       # global state (future)
+ ├─ App.tsx        # main app component + router
+ └─ main.tsx       # React entry point
+
+ How to Run the Project
+Prerequisites
+
+Make sure you have:
+
+Node.js 20.19+ or 22+
+
+npm
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/<username>/<repo>.git
+
+
+Navigate into the project:
+
+cd my-app
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Your app will be running on:
+ http://localhost:5173
+
+ Team Members
+Name	Role
+Member 1	Frontend Developer
+Member 2	UI/UX Designer
+Member 3	Developer
+ Development Workflow
+
+We use:
+
+feature branches (feature/homepage, feature/events, etc.)
+
+pull requests
+
+merge review
+
+commit history to track contributions
+
+ Testing (Planned)
+
+Unit tests with Jest + React Testing Library
+
+Integration tests
+
+UI testing
+
+ Future Improvements
+
+Authentication (student/admin)
+
+Admin dashboard for posting announcements
+
+Search bar
+
+File uploads for lost & found
+
+Mobile version / PWA
+
+Notifications
+
+Integration with university systems
+
+ License
+
+This project is created for educational purposes.
