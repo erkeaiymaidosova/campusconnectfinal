@@ -1,0 +1,39 @@
+.lost-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+}
+
+.lost-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.lost-info h3 {
+  margin: 0 0 8px;
+}
+
+.lost-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #555;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  background: #1976d2;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: #145ca1;
+}

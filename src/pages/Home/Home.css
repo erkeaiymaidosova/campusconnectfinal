@@ -1,0 +1,82 @@
+.home {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* --- HERO / БАННЕР --- */
+.hero {
+  background: linear-gradient(135deg, #4f7cff, #6a9dff);
+  color: white;
+  padding: 50px 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: white;
+  color: #4f7cff;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.hero-btn:hover {
+  background: #f2f2f2;
+}
+
+/* --- КАТЕГОРИИ --- */
+.categories h2,
+.latest h2 {
+  margin-bottom: 20px;
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 15px;
+}
+
+.cat-card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.cat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* --- ПОСЛЕДНИЕ НОВОСТИ --- */
+.last-news-placeholder {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  border: 1px dashed #bbb;
+}

@@ -1,0 +1,30 @@
+/* Home.css и News.css */
+.home, .news-page {
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.news-card {
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.news-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.news-card h3 {
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.news-card p {
+  margin: 0;
+  color: #555;
+}
